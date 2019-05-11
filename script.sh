@@ -7,3 +7,4 @@ sed 's#;[0-9][0-9][0-9];[0-9]#;\\N#' out.4 > out.5
 sed 's#;#,#g' out.5 > out.6
 grep -v \N out.6 > out.7
 cat out.7
+rm out.*
